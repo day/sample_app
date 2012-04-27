@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
+source 'http://gemcutter.org'
 
 gem 'rails', '3.2.3'
+gem "bson_ext"
+gem "mongo_mapper"
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
